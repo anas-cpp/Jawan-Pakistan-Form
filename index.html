@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawan Pakistan &#8211; Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="https://files.catbox.moe/jxqm5w.png" alt="Jawan Pakistan Logo">
+            </div>
+            <div class="nav-content">
+                <a href="PDF.html">Download PDF</a>
+                <a href="">Registration</a>
+            </div>
+        </div>
+    </div>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <form>
+            <div class="form-grid">
+                <!-- Row 1 -->
+                <div class="form-group">
+                    <label>Institue<span class="required">*</span></label>
+                    <select>
+                        <option disabled selected>Select Option</option>
+                        <option>Hussainabad Campus (Adamjee)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Course<span class="required">*</span></label>
+                    <select>
+                        <option selected disabled>Select Your Option</option>
+                        <option>Web & Mobile App Dev Course</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Favourite Time<span class="required">*</span></label>
+                    <select>
+                        <option selected disabled>Select Your Timing</option>
+                        <option>Monday & Thursday(6:30pm to 9:30pm)</option>
+                        <option>Monday & Thursday(6:30pm to 9:30pm)</option>
+                    </select>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="form-group">
+                    <label>Full Name<span class="required">*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Parents / Guardian Name<span class="required">*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Email ( Write email carefully )<span class="required">*</span></label>
+                    <input type="email" required placeholder="abc123@gmail.com">
+                </div>
+
+                <!-- Row 3 -->
+                <div class="form-group">
+                    <label>Contact Number<span class="required">*</span></label>
+                    <input type="number" required placeholder="03XXXXXXXXX">
+                </div>
+                <div class="form-group">
+                    <label>City Name<span class="required">*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>CNIC / BForm<span class="required">*</span></label>
+                    <input type="number" required placeholder="XXXXX-XXXXXXXX">
+                </div>
+
+                <!-- Row 4 -->
+                <div class="form-group">
+                    <label>Gender<span class="required">*</span></label>
+                    <select>
+                        <option selected disabled>Select Your Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Date of Birth<span class="required">*</span></label>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Last Qualification<span class="required">*</span></label>
+                    <select>
+                        <option selected disabled>Select Last Qualification</option>
+                        <option>Under Matric</option>
+                        <option>Matric / O-Level</option>
+                        <option>Intermediate / A-Level</option>
+                        <option>Graduate</option>
+                        <option>Masters</option>
+                        <option>PHD</option>
+                    </select>
+                </div>
+
+                <!-- Full Width Field -->
+                <div class="full-width">
+                    <label>Permanent Address<span class="required">*</span></label>
+                    <input type="text" required size="175">
+                </div>
+                <br>
+                <!-- File Upload -->
+                <div class="file-upload">
+                    <label>Passport Size Profile Image ( Face Front and Decent picture )<span
+                            class="required">*</span></label>
+                </div>
+                <br>
+                <div class="file">
+                    <input type="file" required class="border perm-add custom-btn">
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!-- Submit Button -->
+            <div class="submit-btn">
+                <center>
+                    <button class="btn" type="submit">Submit Form</button>
+                </center>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
